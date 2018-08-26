@@ -8,7 +8,7 @@
 
 
 //*************************************DEFINITION OF FIRMWARE VERSION AND I2C DEFAULT ADDRESS************************************//
-#define VERSION 0x01                                        // Firmware Version
+#define VERSION 0x02                                       // Firmware Version
 #define EC_METER_DEFAULT_ADDRESS 0x4C                       // EC-Meter default I2C Address
 
 uint8_t EC_METER = 0x4C;                                    // EC-Meter I2C Address
