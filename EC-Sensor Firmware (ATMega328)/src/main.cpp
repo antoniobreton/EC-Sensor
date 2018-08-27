@@ -5,7 +5,7 @@ double readADC(int channel){
   uint16_t sampleCount = 4096;
 
   for (uint16_t i = 0; i < sampleCount; i++) {
-    total += analogRead(channel);
+    total += analogRead(channel); 
   }
 
   total = total >> 6;
